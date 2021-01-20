@@ -4,9 +4,6 @@ Running the project
 
 ```bash
 yarn
-# generate the typescript types required to build the app
-yarn graphql:generate # SEE NOTE
-yarn test # optional
 yarn start # starts the expo bundler
 ```
 
@@ -23,4 +20,5 @@ What I did and when
 1. start the project using expo cli
 1. add prettier and lint staged, so I don't have to think about code formatting
 1. add apollo client
-1. added graphql-codegen to generate the a query and show that in a react native view
+1. added view for blocks as well as an (ugly for now) async list component
+1. added view for transactions
