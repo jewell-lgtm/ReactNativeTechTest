@@ -16,3 +16,4 @@ What I did and when
 
 1. start the project using expo cli
 1. add prettier and lint staged, so I don't have to think about code formatting
+1. add apollo client
