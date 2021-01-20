@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { FC } from "react";
 import { ShowBlocks } from "../components/blocks/ShowBlocks";
+import { ShowTransactions } from "../components/transactions/ShowTransactions";
 
 function BlocksScreen() {
   return (
@@ -16,7 +17,7 @@ function BlocksScreen() {
 function TransactionsScreen() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Transactions!</Text>
+      <ShowTransactions />
     </View>
   );
 }

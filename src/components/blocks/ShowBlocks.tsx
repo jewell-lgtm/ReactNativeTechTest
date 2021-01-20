@@ -32,8 +32,6 @@ type BitcoinBlock = {
 export const ShowBlocks: FC<unknown> = () => {
   const { loading, error, data } = useQuery(BLOCKS_QUERY);
 
-  console.log("data.bitcoin.blocks[0]", data.bitcoin.blocks[0]);
-
   return (
     <AsyncList<BitcoinBlock>
       items={data?.bitcoin?.blocks}
