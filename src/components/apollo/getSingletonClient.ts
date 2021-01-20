@@ -9,7 +9,7 @@ let client: ApolloClient<NormalizedCacheObject>;
 export function getSingletonClient(): ApolloClient<NormalizedCacheObject> {
   if (!client) {
     client = new ApolloClient({
-      uri: "https://bitquery.io/labs/graphql",
+      uri: "https://graphql.bitquery.io",
       cache: new InMemoryCache(),
     });
   }

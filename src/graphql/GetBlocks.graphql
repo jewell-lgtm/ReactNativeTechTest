@@ -1,0 +1,9 @@
+#import "./Block.fragment.graphql"
+
+query getBlocks {
+  bitcoin {
+    blocks(options: { limit: 20 }) {
+      ...Block
+    }
+  }
+}

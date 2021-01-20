@@ -1,0 +1,8 @@
+fragment Block on BitcoinBlock {
+  height
+  blockHash
+  timestamp {
+    iso8601
+  }
+  count
+}
